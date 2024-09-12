@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+nav {
+
+
+  ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    div {
+      display: flex;
+      flex-direction: row;
+      justify-content:space-evenly;
+    }
+    // .left-nav li a {
+    //   // color: yellow;
+    //   // background-color: pink;
+    //   // display: flex;
+    //   // float: left;
+    //   display: inline-block;
+    //   // flex-direction: row;
+    //   // justify-content: space-around;
+    // }
+    li {
+      list-style-type: none;
+      a {
+        text-decoration: none;
+        color: #525f73;
+      }
+      .arrow-button {
+        color:#2274E7;
+      }
+      
+      .arrow-button-text {
+        color: #CBD6E1;
+      }
+    }
+
+  }
+}
+.dropdown-content {
+  display: none;
+  a {
+    display: block;
+  }
+}
+.drop-down:hover .dropdown-content {
+  display: block;
+}
+
