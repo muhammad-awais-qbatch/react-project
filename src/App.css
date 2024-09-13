@@ -23,6 +23,8 @@
   color: white;
 }
 
+
+
 .App-link {
   color: #61dafb;
 }
@@ -35,3 +37,7 @@
     transform: rotate(360deg);
   }
 } */
+
+body {
+  background-color: #0f1d30;
+}

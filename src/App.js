@@ -6,6 +6,9 @@ import NP from "./pages/No Page";
 import Pricing from "./pages/Pricing";
 import SignIn from "./pages/Sign in";
 import WOL from "./pages/Wall of love";
+// import BoxIcon from "./components/BoxIcon";
+// import Front from "./components/Front";
+import Home from "./pages/Home";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
@@ -14,6 +17,8 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Navbar />}>
+            <Route path="" element={<Home />} />
+            {/* <Route path="" element={<BoxIcon />} /> */}
             <Route path="about" element={<About />} />
             <Route path="pricing" element={<Pricing />} />
             <Route path="blog" element={<Blog />} />

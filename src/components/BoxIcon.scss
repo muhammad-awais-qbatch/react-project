@@ -1,0 +1,62 @@
+div .box-icon {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.circle {
+  background: #2273EA;
+  border-radius: 50%;
+  color: black;
+  display: inline-block;
+  height: 50px;
+  font-weight: bold;
+  font-size: 1.2em;
+  width: 50px;
+  margin: 0 auto;
+}
+
+.circle box-icon {
+  display: table-cell;
+  vertical-align: middle;
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  padding: 0 15px;
+}
+
+
+// #line{
+//   background-color: white;
+//   // position:relative; 
+//   // top:1000px; 
+//   // left:0px; 
+//   // content:""; 
+//   width:100%;
+//   min-height: 80px;
+//   // -ms-transform: skew(0deg,-2deg); /* IE 9 */
+//   // -webkit-transform: skew(0deg,-2deg); /* Safari */
+//   transform: skew(0deg,-3deg); /* Standard syntax */
+//   // z-index: 10000;
+//   border-color: white;
+// }
+
+// #afterline {
+//   width:100%;
+//   // min-width: 80px;
+//   background-color: white;
+//   border-color: white;
+//   // content: "";
+//   min-height: 80px;
+//   // z-index:9999;
+//   transform: skew(0deg,-3deg)
+// }
+
+div .box-icon {
+  // border-color: white;
+  // clip-path: polygon(5760px 0, 0 0, 0 100%, 5760px calc(352px - 100%));
+    width:100%;
+  min-height: 80px;
+  clip-path: polygon(0% 11%,100% 0%, 100% 100%, 0% 100%);
+
+}
